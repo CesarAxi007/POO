@@ -1,5 +1,5 @@
-var Gato = /** @class */ (function () {
-    function Gato(name, sex, age, weight, color, texture) {
+var Gatos = /** @class */ (function () {
+    function Gatos(name, sex, age, weight, color, texture) {
         this.name = name;
         this.sex = sex;
         this.age = age;
@@ -7,7 +7,7 @@ var Gato = /** @class */ (function () {
         this.color = color;
         this.texture = texture;
     }
-    Gato.prototype.mostrarDatos = function () {
+    Gatos.prototype.mostrarDatos = function () {
         console.log("Name: ".concat(this.name));
         console.log("Sex: ".concat(this.sex));
         console.log("Age: ".concat(this.age));
@@ -15,10 +15,10 @@ var Gato = /** @class */ (function () {
         console.log("Color: ".concat(this.color));
         console.log("Texture: ".concat(this.texture));
     };
-    return Gato;
+    return Gatos;
 }());
-var gatoUno = new Gato('Oscar', "Macho", 3, 7, 'Marron', "Rayado");
-var gatoDos = new Gato('Luna', "Hembra", 2, 5, 'Gris', "Lisa");
+var gatoUno = new Gatos('Oscar', "Macho", 3, 7, 'Marron', "Rayado");
+var gatoDos = new Gatos('Luna', "Hembra", 2, 5, 'Gris', "Lisa");
 gatoUno.mostrarDatos();
 console.log("_________________________________________-");
 gatoDos.mostrarDatos();
