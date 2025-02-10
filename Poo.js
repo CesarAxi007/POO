@@ -20,4 +20,5 @@ var Gatos = /** @class */ (function () {
 var gatoUno = new Gatos('Oscar', "Macho", 3, 7, 'Marron', "Rayado");
 var gatoDos = new Gatos('Luna', "Hembra", 2, 5, 'Gris', "Lisa");
 gatoUno.mostrarDatos();
+console.log("_________________________________________-");
 gatoDos.mostrarDatos();
